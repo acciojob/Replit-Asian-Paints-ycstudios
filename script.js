@@ -1,4 +1,9 @@
- const gridItems = document.querySelectorAll(".grid-item");
+document.addEventListener("DOMContentLoaded", function () {
+    // Your test setup code here
+
+
+
+const gridItems = document.querySelectorAll(".grid-item");
     
     const blockInput = document.getElementById("block_id");
     const colorInput = document.getElementById("colour_id");
@@ -54,3 +59,4 @@
         item.style.backgroundColor = "transparent";
       });
     });
+	});
