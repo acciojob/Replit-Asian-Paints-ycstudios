@@ -1,1 +1,24 @@
-/*  your css code here. If applicable */
+#grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+      border: 1px solid black;
+      text-align: center;
+    }
+    .grid-item {
+      border: 1px solid gray;
+      height: 200px;
+      line-height: 200px;
+      font-size: 24px;
+    }/*  your css code here. If applicable */
+#grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 200px);
+      border: 1px solid black;
+      text-align: center;
+    }
+    .grid-item {
+      border: 1px solid gray;
+      height: 200px;
+      line-height: 200px;
+      font-size: 24px;
+    }
